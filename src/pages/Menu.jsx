@@ -32,7 +32,7 @@ export default function Menu() {
       document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
     }, 100);
     return () => observer.disconnect();
-  }, [activeCategory]);
+  }, []);
 
   const handleCategory = (cat) => {
     setActiveCategory(cat);
