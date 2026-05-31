@@ -1,6 +1,6 @@
 //Cart Context
 
-import { createContext, useContext, useReducer, useEffect } from 'react';
+import { createContext, useContext, useReducer } from 'react';
 
 const CartContext = createContext(null);
 
